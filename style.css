@@ -1,0 +1,67 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #1E1E1E;
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 0 7% 0 9%;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 171px;
+}
+
+.logo-text1, .logo-text2 {
+  display: inline;
+  font-family: 'Clash Display', sans-serif;
+  font-size: 36.1px;
+}
+
+.logo-text1 {
+  color: #FFFFFF;
+  text-align: right;
+}
+
+.logo-text2 {
+  color: #D434FE;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex: 1;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex: 1;
+}
+
+.nav-links a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+button {
+  width: 172px;
+  height: 53px;
+  color: #FFFFFF;
+  background: linear-gradient(#903AFF, #D434FE, #FF26B9);
+  border-radius: 4px;
+}
