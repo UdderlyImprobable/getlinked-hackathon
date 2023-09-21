@@ -1,8 +1,18 @@
 body {
   padding: 0px;
   margin: 0px;
+  color: #FFFFFF;
   background-color: #1E1E1E;
+  padding: 10px;
+  background-image: url("assets/Purple-Lens-Flare-PNG.png");
+  background-blend-mode: hard-light;
+  background-repeat: no-repeat;
+  background-size: 1086px 836px;
+  background-origin: padding-box;
+  background-position: 0 0;
 }
+
+
 
 
 
@@ -40,17 +50,17 @@ nav {
 
 .nav-bar {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  gap: 40px;
   flex: 1;
+  gap: 40px;
 }
 
 .nav-links {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
-  flex: 1;
+  gap: 15px;
 }
 
 .nav-links a {
@@ -64,4 +74,97 @@ button {
   color: #FFFFFF;
   background: linear-gradient(#903AFF, #D434FE, #FF26B9);
   border-radius: 4px;
+}
+
+.hr {
+  margin-bottom: 0;
+  border-bottom: 5px solid #FF26B9;
+}
+
+.revolution-text, .hr {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.mission-statement .first {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100px;
+  width:auto;
+  padding-left: 15%;
+  
+}
+
+.mission-statement .second {
+  display: flex;
+  align-items: center;
+  margin-left: 35%;
+  margin-top: 50px;
+  height: 100px;
+  gap: 135px;
+}
+
+.mission-statement .third {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+}
+
+.mission-statement .third .purple-image {
+  width: 1086px;
+  height: 836px;
+  opacity: 68%;
+  background-image: url("assets/Purple-Lens-Flare2-PNG.png");
+  background-blend-mode: hard-light;
+  background-repeat: no-repeat;
+  background-size: 951px 994px;
+  background-position: 561px 0;
+}
+
+.metrix {
+  width: 1086px;
+  height: 836px;
+  opacity: 8%;
+  background-image: url("assets/metrix\ 1.png");
+  background-blend-mode: hard-light;
+  background-repeat: no-repeat;
+  background-size: 1164px 801px;
+  background-position: 348px 181px;
+}
+
+.man {
+  width: 1086px;
+  height: 836px;
+  background-image: url("assets/man-wearing-smart-glasses-touching-virtual-screen\ 1.png");
+  background-blend-mode: hard-light;
+  background-repeat: no-repeat;
+  background-size: 828px 715px;
+  background-position: 715px 267px;
+}
+
+.image {
+  width: 1086px;
+  height: 836px;
+  background-image: url("assets/Image\ 1.png");
+  background-blend-mode: hard-light;
+  background-repeat: no-repeat;
+  background-size: 667px 641px;
+  background-position: 781px 257px;
+}
+
+.second .half-star {
+  align-self: flex-start;
+  
+}
+
+.full-star {
+  align-self: flex-end;
+}
+
+.half-star {
+  opacity: 39%;
 }
