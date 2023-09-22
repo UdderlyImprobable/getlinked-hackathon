@@ -1,172 +1,224 @@
 body {
-  padding: 0px;
-  margin: 0px;
-  color: #FFFFFF;
-  background-color: #1E1E1E;
-  padding: 10px;
-  background-image: url("assets/Purple-Lens-Flare-PNG.png");
-  background-blend-mode: hard-light;
-  background-repeat: no-repeat;
-  background-size: 1086px 836px;
-  background-origin: padding-box;
-  background-position: 0 0;
-  height: 100%;
-  width: 100%
-}
-
-
-
-
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 65px;
-  padding: 0 7% 0 9%;
-  border-bottom: 1px solid #D9D9D9;
+  width: 100%; 
+  height: 100%; 
+  position: relative; 
+  background: #150E28;
+  color: white;
 }
 
 .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 44px;
-  width: 171px;
-}
-
-.logo-text1, .logo-text2 {
+  position: absolute;
+  left: 128px; 
+  top: 67px;
   display: inline;
-  font-family: 'Clash Display', sans-serif;
-  font-size: 36.1px;
 }
 
 .logo-text1 {
-  color: #FFFFFF;
-  text-align: right;
+  color: #FFFFFF; 
+  font-size: 36px; 
+  font-family: 'Clash Display', sans-serif; 
+  font-weight: 700;
+
 }
 
 .logo-text2 {
-  color: #D434FE;
+  color: #D434FE; 
+  font-size: 36px; 
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 700;
 }
 
-.nav-bar {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex: 1;
-  gap: 40px;
+nav {
+  position: absolute;
+  width: 716px; 
+  height: 53px; 
+  left: 668px; 
+  top: 63px; 
+  color: white; 
+  font-size: 16px; 
+  font-family: Montserrat; font-weight: 400; 
+  word-wrap: break-word;
 }
 
-.nav-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
+.timeline {
+  left: 0px; 
+  top: 16px; 
+  position: absolute;
 }
 
-.nav-links a {
-  color: #FFFFFF;
-  text-decoration: none;
+.overview {
+  left: 126px; 
+  top: 16px; 
+  position: absolute;
 }
 
-button {
-  width: 172px;
-  height: 53px;
-  color: #FFFFFF;
-  background: linear-gradient(#903AFF, #D434FE, #FF26B9);
+.register-link {
+  left: 52px; 
+  top: 16px; 
+  position: absolute;
+}
+
+.contact {
+  left: 358px; 
+  top: 16px; 
+  position: absolute;
+}
+
+.faq {
+  left: 259px; 
+  top: 16px; 
+  position: absolute; 
+}
+
+.register-button1 {
+  width: 172px; 
+  height: 53px; 
+  left: 0px; top: 0px; 
+  position: absolute; 
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56%, #FF26B9 100%, #FE34B9 100%); 
   border-radius: 4px;
 }
 
-.hr {
-  margin-bottom: 0;
-  border-bottom: 5px solid #FF26B9;
-}
-
-.revolution-text, .hr {
-  display: inline-block;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 36px;
-  font-weight: bold;
-}
-
-.mission-statement .first {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  height: 100px;
-  width:auto;
-  padding-left: 15%;
-  
-}
-
-.mission-statement .second {
-  display: flex;
-  align-items: center;
-  margin-left: 35%;
-  margin-top: 50px;
-  height: 100px;
-  gap: 135px;
-}
-
-.mission-statement .third {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 400px;
-}
-
-.mission-statement .third .purple-image {
-  width: 1086px;
-  height: 836px;
-  opacity: 68%;
-  background-image: url("assets/Purple-Lens-Flare2-PNG.png");
-  background-blend-mode: hard-light;
-  background-repeat: no-repeat;
-  background-size: 951px 994px;
-  background-position: 561px 0;
+.purple-flare1 {
+  width: 1086px; 
+  height: 836px; 
+  left: 0px; 
+  top: 0px; 
+  position: absolute;
 }
 
 .metrix {
-  width: 1086px;
-  height: 836px;
-  opacity: 8%;
-  background-image: url("assets/metrix\ 1.png");
-  background-blend-mode: hard-light;
-  background-repeat: no-repeat;
-  background-size: 1164px 801px;
-  background-position: 348px 181px;
+  width: 1164px; 
+  height: 801px; 
+  left: 348px; 
+  top: 181px; 
+  position: absolute;
+}
+
+.emptydiv1 {
+  width: 1865px; 
+  height: 0px; 
+  left: 1803px; 
+  top: 141px; 
+  position: absolute; 
+  transform: rotate(-180deg); 
+  transform-origin: 0 0; border: 1px rgba(255, 255, 255, 0.18) solid;
+}
+
+.emptydiv2 {
+  width: 1865px; 
+  height: 0px; 
+  left: 1803px; 
+  top: 2175px; 
+  position: absolute; 
+  transform: rotate(-180deg); 
+  transform-origin: 0 0; border: 1px rgba(255, 255, 255, 0.18) solid;
+}
+
+.emptydiv3 {
+  width: 1541px; 
+  height: 0px; 
+  left: 1530px; 
+  top: 3152px; 
+  position: absolute; 
+  transform: rotate(180deg); transform-origin: 0 0; 
+  border: 1px rgba(255, 255, 255, 0.18) solid;
+}
+
+.emptydiv4 {
+  width: 1541px; 
+  height: 0px; 
+  left: 1530px; 
+  top: 4078px; 
+  position: absolute; 
+  transform: rotate(180deg); transform-origin: 0 0; 
+  border: 1px rgba(255, 255, 255, 0.18) solid;
+}
+
+.emptydiv5 {
+  width: 1541px; 
+  height: 0px; 
+  left: 1530px; 
+  top: 7454px; 
+  position: absolute; 
+  transform: rotate(180deg); transform-origin: 0 0; 
+  border: 1px rgba(255, 255, 255, 0.18) solid;
+}
+
+.register-button2 {
+  position: absolute;
+  left: 132px; 
+  top: 644px; 
+  width: 172px; 
+  height: 53px;
+  color: white;
+  font-size: 16px; 
+  font-family: Montserrat; 
+  font-weight: 400; 
+  word-wrap: break-word; 
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56%, #FF26B9 100%, #FE34B9 100%); 
+  border-radius: 4px;
+}
+
+.read-more-container {
+  width: 172px; 
+  height: 53px; 
+  left: 829px; 
+  top: 2928px; 
+  position: absolute;
+}
+
+.emptydiv7 {
+  width: 172px; 
+  height: 53px; 
+  left: 0px; 
+  top: 0px; 
+  position: absolute; 
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56%, #FF26B9 100%, #FE34B9 100%); 
+  border-radius: 4px;
+}
+
+.read-more {
+  left: 42px; 
+  top: 17px; 
+  position: absolute; 
+  font-size: 16px; 
+  font-family: Montserrat; font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.read-more2-container {
+  width: 172px; 
+  height: 53px; 
+  left: 385px; 
+  top: 8397px; 
+  position: absolute;
+}
+
+.emptydiv8 {
+  width: 172px; 
+  height: 53px; 
+  left: 0px; top: 0px; 
+  position: absolute; 
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56%, #FF26B9 100%, #FE34B9 100%); 
+  border-radius: 4px;
 }
 
 .man {
-  width: 1086px;
-  height: 836px;
-  background-image: url("assets/man-wearing-smart-glasses-touching-virtual-screen\ 1.png");
-  background-blend-mode: hard-light;
-  background-repeat: no-repeat;
-  background-size: 828px 715px;
-  background-position: 715px 267px;
+  width: 828px; 
+  height: 715px; 
+  left: 715px; 
+  top: 267px; 
+  position: absolute;
 }
 
-.image {
-  width: 1086px;
-  height: 836px;
-  background-image: url("assets/Image\ 1.png");
-  background-blend-mode: hard-light;
-  background-repeat: no-repeat;
-  background-size: 667px 641px;
-  background-position: 781px 257px;
+.read-more2 {
+  left: 42px; 
+  top: 17px; 
+  position: absolute; 
+  color: white; 
+  font-size: 16px; 
+  font-family: Montserrat; font-weight: 400; 
+  word-wrap: break-word;
 }
 
-.second .half-star {
-  align-self: flex-start;
-  
-}
-
-.full-star {
-  align-self: flex-end;
-}
-
-.half-star {
-  opacity: 39%;
-}
