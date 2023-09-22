@@ -10,6 +10,8 @@ body {
   background-size: 1086px 836px;
   background-origin: padding-box;
   background-position: 0 0;
+  height: 100%;
+  width: 100%
 }
 
 
