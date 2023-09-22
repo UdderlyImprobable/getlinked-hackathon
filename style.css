@@ -222,3 +222,228 @@ nav {
   word-wrap: break-word;
 }
 
+.text-one {
+  width: 722px; 
+  height: 236px; 
+  left: 128px; 
+  top: 293px; 
+  position: absolute;
+}
+
+
+.purple-flare2 {
+  width: 951px; 
+  height: 994px; 
+  left: 561px; 
+  top: 0px; 
+  position: absolute;
+}
+
+.participate {
+  left: 131px; 
+  top: 537px; 
+  position: absolute; 
+  color: white; 
+  font-size: 20px; 
+  font-family: "Montserrat"; 
+  font-weight: 400; 
+  line-height: 33.20px; 
+  word-wrap: break-word;
+}
+
+.get-linked-hackathon {
+  left: 0px; top: 47px; 
+  position: absolute; 
+  color: white; 
+  font-size: 80px; 
+  font-family: "Clash Display"; 
+  font-weight: 700; 
+  word-wrap: break-word;
+}
+
+.boom-emoji {
+  width: 58px; 
+  height: 58px; 
+  left: 664px; 
+  top: 161px; 
+  position: absolute;
+}
+
+.chain {
+  width: 86px; 
+  height: 86px; 
+  left: 578px; 
+  top: 147px; 
+  position: absolute;
+}
+
+.lightbulb {
+  width: 53px; 
+  height: 73px; 
+  left: 516px; 
+  top: 0px; 
+  position: absolute;
+}
+
+.shiny-bubble {
+  width: 667px; 
+  height: 641px; 
+  left: 781px; 
+  top: 257px; 
+  position: absolute;
+}
+
+.purple-flare3 {
+  width: 1037px; 
+  height: 948px; 
+  left: 0px; 
+  top: 1319px; 
+  position: absolute;
+}
+
+.purple-flare4 {
+  width: 404px; 
+  height: 959px; 
+  left: 1129px; 
+  top: 1610px; 
+  position: absolute;
+}
+
+.timer {
+  width: 291px; 
+  height: 85px; 
+  left: 131px; 
+  top: 774px; 
+  position: absolute;
+}
+
+.timer-numbers {
+  color: white; 
+  font-size: 64px; 
+  font-family: 'Unica One', cursive;; 
+  font-weight: 400; 
+  line-height: 85.12px; 
+  word-wrap: break-word;
+}
+
+.h,
+.m,
+.s {
+  position: absolute; 
+  color: white; 
+  font-size: 14px; 
+  font-family: Montserrat; font-weight: 400; line-height: 18.62px; 
+  word-wrap: break-word;
+}
+
+.h {
+  left: 63px; 
+  top: 44px; 
+}
+
+.m {
+  left: 173px; 
+  top: 47px;
+}
+
+.s {
+  left: 282px; 
+  top: 48px;
+}
+
+.the-big-idea {
+  width: 490px; 
+  height: 477px; 
+  left: 230px; 
+  top: 1016px; 
+  position: absolute;
+}
+
+.big-lightbulb {
+  width: 490px; 
+  height: 477px; 
+  left: 0px; 
+  top: 0px; 
+  position: absolute;
+}
+
+.intro {
+  left: 826px; 
+  top: 1147px; 
+  position: absolute;
+  color: white; 
+  font-size: 32px; 
+  font-family: "Clash Display"; 
+  font-weight: 700; 
+  word-wrap: break-word;
+}
+
+.purple {
+  color: #D434FE;
+}
+
+.the-big-idea-text {
+  width: 144.84px; 
+  height: 59.75px; 
+  left: 167.44px; 
+  top: 227.68px; 
+  position: absolute; 
+  text-align: center; 
+  color: white; 
+  font-size: 24px; 
+  font-family: "Montserrat"; 
+  font-weight: 700; 
+  line-height: 29.40px; 
+  word-wrap: break-word"
+}
+
+.text {
+  position: absolute; 
+  color: white; 
+  font-size: 14px; 
+  font-family: "Montserrat"; 
+  font-weight: 400; 
+  line-height: 27.50px; 
+  word-wrap: break-word;
+}
+
+.two .text {
+  left: 829px; 
+  top: 1249px; 
+}
+
+.rules {
+  left: 181px; 
+  top: 1709px; 
+  position: absolute;
+  color: white; 
+  font-size: 32px; 
+  font-family: Clash Display; 
+  font-weight: 700; 
+  word-wrap: break-word;
+}
+
+.three .text {
+  left: 184px; 
+  top: 1811px; 
+}
+
+.three img {
+  position: absolute;
+  width: 664px; 
+  height: 664px; 
+  left: 767px; 
+  top: 1525px; 
+  
+}
+
+.three .sphere {
+  position: absolute; 
+  width: 134px; 
+  height: 134px; 
+  left: 1169px; 
+  top: 1636px; 
+  background: linear-gradient(270deg, #8F01FE 0%, #FF2674 100%); 
+  border-radius: 9999px;
+}
+
