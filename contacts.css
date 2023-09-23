@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  
+}
+.back-arrow-mobile {
+  display: none;
+}
+body {
+  background-color: #150E28;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Montserrat";
+  background-image: url(./Images/BG.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px 128px 0 128px;
+}
+.logo {
+  font-family: Clash Display;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+}
+.logo-linked {
+
+  color: #D434FE;
+}
+
+nav ul {
+  display: flex;
+  /* align-items: baseline; */
+  align-items: center;
+  gap: 56px;
+}
+.link {
+  color: #FFF;
+  font-size: 1rem;
+}
+.contact{
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: linear-gradient(90deg, #903AFF 3.08%, #FF26B9 93.85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.register-li {
+  width: 172px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-family: "Clash Display";
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+.register {
+  font-size: 1rem;
+  color: #FFF;
+  font-weight: 400;
+}
+/* Main styling start */
+main {
+  display: flex;
+  padding:  0 208px 0 188px;
+  justify-content: space-between;
+}
+.left {
+  padding-top: 216px;
+}
+.left h2 {
+  color: #FE34B9;
+  font-size: 2rem;
+}
+.contact-info {
+  color: #FFF;
+  font-size: 1rem;
+  padding: 26px 0 0 0;
+}
+.share-on {
+  color: #D434FE;
+  font-size: 1rem;
+  padding: 26px 0 0 0;
+}
+
+/* Social icons style start */
+.social-icon-div {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* align-items: center; */
+}
+/* Social icons style end */
+/* Main right style start */
+.right {
+  margin-top: 160px;
+  padding: 75px 90px 67px 90px;
+  width: 617px;
+  height: 611px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.right p {
+  font-size: 1.25rem;
+  color: #D434FE;
+}
+.form-header {
+  padding: 15px 0 40px 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  width: 437px;
+  height: 47px;
+  border-radius: 4px;
+  padding-left: 29px;
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 42px;
+  color: #FFF;
+  font-size: 1rem;
+}
+.input::placeholder {
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+.input:focus {
+  outline: #FFFFFF;
+}
+textarea {
+  width: 437px;
+  height: 119px;
+  padding: 9px 0 0 15px;
+  font-size: 1rem;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+textarea::placeholder {
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+textarea:focus {
+  outline: #FFFFFF;
+}
+.submit-button {
+  width: 10.75rem;
+  height: 3.3125rem;
+  border-radius: 4px;
+  border: none;
+  color: #FFF;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 32px;
+  cursor: pointer;
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+/* Main right style end */
+/* Main styling end */
+
+/* Mobile view style start */
+@media screen and (max-width: 1250px) {
+  body {
+      background-image: url(./Images/BG-m.svg);
+  }
+  header {
+      display: none;
+  }
+  .left {
+      display: none;
+  }
+  .back-arrow-mobile {
+      display: block;
+      margin: 47px 0 0 48px;
+  }
+  .right {
+      margin-top: 160px;
+      padding: 75px 90px 67px 90px;
+      width: 617px;
+      height: 611px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.03);
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+}
+/* Mobile view style end */
