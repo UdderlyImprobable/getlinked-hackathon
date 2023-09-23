@@ -172,21 +172,26 @@ nav {
 }
 
 .read-more2-container {
-    width: 172px; 
-    height: 53px; 
-    left: 385px; 
-    top: 8397px; 
-    position: absolute;
+  width: 172px; 
+  height: 53px; 
+  left: 385px; 
+  top: 8397px; 
+  position: absolute;
 }
 
 .read-more2 {
   left: 42px; 
   top: 17px; 
+  width: 172px; 
+  height: 53px;
   position: absolute; 
   color: white; 
   font-size: 16px; 
-  font-family: Montserrat; font-weight: 400; 
+  font-family: Montserrat; 
+  font-weight: 400; 
   word-wrap: break-word;
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56%, #FF26B9 100%, #FE34B9 100%); 
+  border-radius: 4px;
 }
 
 .man {
